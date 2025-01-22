@@ -4,55 +4,52 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
-
-  .:
-    devDependencies:
-      '@simon_he/eslint-config':
-        specifier: ^0.0.6
-        version: 0.0.6(eslint@8.54.0)(typescript@5.3.2)(vitest@0.29.8)
-      '@types/node':
-        specifier: ^18.18.12
-        version: 18.18.12
-      '@types/vscode':
-        specifier: ^1.84.2
-        version: 1.84.2
-      '@vscode-use/utils':
-        specifier: ^0.0.63
-        version: 0.0.63
-      bumpp:
-        specifier: ^9.2.0
-        version: 9.2.0
-      eslint:
-        specifier: ^8.54.0
-        version: 8.54.0
-      esno:
-        specifier: ^0.16.3
-        version: 0.16.3
-      get-sponsors-list:
-        specifier: ^0.0.4
-        version: 0.0.4(typescript@5.3.2)
-      pnpm:
-        specifier: ^8.10.5
-        version: 8.10.5
-      rimraf:
-        specifier: ^4.4.1
-        version: 4.4.1
-      tsup:
-        specifier: ^6.7.0
-        version: 6.7.0(typescript@5.3.2)
-      typescript:
-        specifier: ^5.3.2
-        version: 5.3.2
-      vite:
-        specifier: ^4.5.0
-        version: 4.5.2(@types/node@18.18.12)
-      vitest:
-        specifier: ^0.29.8
-        version: 0.29.8
-      vsce:
-        specifier: ^2.15.0
-        version: 2.15.0
+devDependencies:
+  '@simon_he/eslint-config':
+    specifier: ^0.0.6
+    version: 0.0.6(eslint@8.54.0)(typescript@5.3.2)(vitest@0.29.8)
+  '@types/node':
+    specifier: ^18.18.12
+    version: 18.18.12
+  '@types/vscode':
+    specifier: ^1.84.2
+    version: 1.84.2
+  '@vscode-use/utils':
+    specifier: ^0.0.63
+    version: 0.0.63
+  bumpp:
+    specifier: ^9.2.0
+    version: 9.2.0
+  eslint:
+    specifier: ^8.54.0
+    version: 8.54.0
+  esno:
+    specifier: ^0.16.3
+    version: 0.16.3
+  get-sponsors-list:
+    specifier: ^0.0.4
+    version: 0.0.4(typescript@5.3.2)
+  pnpm:
+    specifier: ^8.10.5
+    version: 8.10.5
+  rimraf:
+    specifier: ^4.4.1
+    version: 4.4.1
+  tsup:
+    specifier: ^6.7.0
+    version: 6.7.0(typescript@5.3.2)
+  typescript:
+    specifier: ^5.3.2
+    version: 5.3.2
+  vite:
+    specifier: ^4.5.0
+    version: 4.5.6(@types/node@18.18.12)
+  vitest:
+    specifier: ^0.29.8
+    version: 0.29.8
+  vsce:
+    specifier: ^2.15.0
+    version: 2.15.0
 
 packages:
 
@@ -952,7 +949,7 @@ packages:
       '@babel/parser': 7.23.4
       '@vue/shared': 3.3.9
       estree-walker: 2.0.2
-      source-map-js: 1.0.2
+      source-map-js: 1.2.1
     dev: true
 
   /@vue/compiler-dom@3.3.9:
@@ -973,8 +970,8 @@ packages:
       '@vue/shared': 3.3.9
       estree-walker: 2.0.2
       magic-string: 0.30.5
-      postcss: 8.4.31
-      source-map-js: 1.0.2
+      postcss: 8.5.1
+      source-map-js: 1.2.1
     dev: true
 
   /@vue/compiler-ssr@3.3.9:
@@ -1463,7 +1460,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chownr@1.1.4:
@@ -2684,8 +2681,8 @@ packages:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -3595,8 +3592,8 @@ packages:
       thenify-all: 1.6.0
     dev: true
 
-  /nanoid@3.3.7:
-    resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
+  /nanoid@3.3.8:
+    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
@@ -3882,6 +3879,10 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
+  /picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
+    dev: true
+
   /picomatch@2.3.0:
     resolution: {integrity: sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==}
     engines: {node: '>=8.6'}
@@ -3945,13 +3946,13 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /postcss@8.4.31:
-    resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
+  /postcss@8.5.1:
+    resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
-      nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
+      nanoid: 3.3.8
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
     dev: true
 
   /prebuild-install@7.0.1:
@@ -4197,15 +4198,15 @@ packages:
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
-  /rollup@3.29.4:
-    resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
+  /rollup@3.29.5:
+    resolution: {integrity: sha512-GVsDdsbJzzy4S/v3dqWPJ7EfvZJfCHiDqe80IyrF59LYuP+e6U1LJoUqeuqRbwAWoMNoXivMNeNAOf5E22VA1w==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-parallel@1.2.0:
@@ -4316,8 +4317,8 @@ packages:
       is-fullwidth-code-point: 4.0.0
     dev: true
 
-  /source-map-js@1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+  /source-map-js@1.2.1:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4678,7 +4679,7 @@ packages:
       '@esbuild-kit/core-utils': 1.3.1
       '@esbuild-kit/esm-loader': 2.1.5
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /tunnel-agent@0.6.0:
@@ -4807,7 +4808,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.5.2(@types/node@18.18.12)
+      vite: 4.5.6(@types/node@18.18.12)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4819,8 +4820,8 @@ packages:
       - terser
     dev: true
 
-  /vite@4.5.2(@types/node@18.18.12):
-    resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
+  /vite@4.5.6(@types/node@18.18.12):
+    resolution: {integrity: sha512-ElBNuVvJKslxcfY2gMmae5IjaKGqCYGicCNZ+8R56sAznobeE3pI9ctzI17cBS/6OJh5YuQNMSN4BP4dRjugBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4849,10 +4850,10 @@ packages:
     dependencies:
       '@types/node': 18.18.12
       esbuild: 0.18.20
-      postcss: 8.4.31
-      rollup: 3.29.4
+      postcss: 8.5.1
+      rollup: 3.29.5
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vitest@0.29.8:
@@ -4907,7 +4908,7 @@ packages:
       tinybench: 2.4.0
       tinypool: 0.4.0
       tinyspy: 1.1.1
-      vite: 4.5.2(@types/node@18.18.12)
+      vite: 4.5.6(@types/node@18.18.12)
       vite-node: 0.29.8(@types/node@18.18.12)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
